@@ -1,0 +1,13 @@
+{
+  "name": "coding-concepts-r",
+  "version": "1.0.0",
+  "description": "Coding Concepts — R Edition. A nine-module interactive R learning book, content-driven from data/*.json.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "deploy": "wrangler pages deploy . --project-name=coding-concepts-r"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}
